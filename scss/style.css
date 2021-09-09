@@ -143,8 +143,9 @@ body {
   background-color: #cccccc;
   border: none;
   font-size: 0.9vmax;
-  padding-left: 2%;
+  padding-left: 3%;
   margin-left: 0.5vmax;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 900px) {
