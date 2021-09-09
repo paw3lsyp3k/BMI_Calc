@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI - Kalkulator</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainWrapper">
+        <div class="bmi_message"></div>
+        <div class="bmi_description"></div>
+        <div class="bmi_calculator">
+            <h1>Kalkulator BMI</h1>
+            <div class="input">
+                Waga: <input 
+                type="number"
+                placeholder="Waga w kg"
+                id="weight"
+                class="bmi_input">
+            </div>
+            <div class="input">
+                Wzrost: <input 
+                type="number"
+                placeholder="wzrost w cm"
+                id="height"
+                class="bmi_input">
+            </div>  
+            <div class="bmi_button" onclick="calcBmi()">
+                Oblicz
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
